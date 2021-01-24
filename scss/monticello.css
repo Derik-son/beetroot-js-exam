@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Gotham";
-  src: url(../Gotham-Font/Gotham-Bold.otf);
-  src: url(../Gotham-Font/GothamBook.ttf);
+  src: url("/fonts/Gotham Medium Regular.ttf");
 }
 
 body {
@@ -51,29 +50,6 @@ header {
       justify-content: space-around;
 }
 
-.social-logo {
-  width: 150px;
-  padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  color: white;
-  text-transform: uppercase;
-  line-height: 1.375;
-}
-
-.social-logo a {
-  border: 3px solid #ffffff;
-  border-width: 1px;
-  border-color: white;
-  border-style: solid;
-  border-radius: 50%;
-  width: 39px;
-  height: 38px;
-}
-
 .header-title {
   margin-top: 300px;
 }
@@ -102,10 +78,79 @@ header {
   height: 800px;
 }
 
+.about-header {
+  font-size: 44px;
+  font-family: "Gotham";
+  color: #2c4058;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.5;
+  text-align: center;
+  z-index: 224;
+}
+
+.about-header hr {
+  width: 80px;
+}
+
+.content {
+  width: 1600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.image {
+  width: 60%;
+  padding-top: 100px;
+}
+
+.color-box {
+  background-color: #55b7ff;
+  width: 580px;
+  height: 470px;
+}
+
 .image-box {
   width: 630px;
   height: 470px;
-  margin-top: 340px;
-  z-index: 200;
+  padding-top: 70px;
+  padding-left: 200px;
+}
+
+.text-container {
+  padding-top: 200px;
+}
+
+.text-container h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-family: "Gotham";
+  color: #2c4058;
+  text-transform: uppercase;
+  line-height: 1.091;
+}
+
+.text-container h1 {
+  font-size: 32px;
+  font-family: "Gotham";
+  color: #2c4058;
+  text-transform: uppercase;
+  line-height: 1.091;
+}
+
+.text-container p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: "OpenSans";
+  font-weight: 400;
+  color: #4b5562;
+  line-height: 1.667;
+  text-align: left;
+}
+
+.text-container p button {
+  width: 190px;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=monticello.css.map */
