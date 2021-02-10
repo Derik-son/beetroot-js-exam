@@ -79,83 +79,55 @@ header {
 
 .menu-button ul li {
   padding-top: 18px;
-}
-
-.menu-button ul li a {
-  text-decoration: none;
   font-size: 14px;
   font-family: "Gotham";
   color: white;
 }
 
-.menu-button ul li p:before:hover {
-  display: none;
-}
-
-.menu-button ul li input[type=radio] {
-  display: none;
-}
-
-.menu-button ul li p:before {
-  content: " ";
-  display: inline-block;
-  margin: 0 5px 0 0;
-  width: 10px;
-  height: 10px;
-  border-radius: 11px;
-  border: 2px solid #ffffff;
-  background-color: transparent;
-}
-
-.menu-button ul li input[type=radio]:hover + p:after {
-  content: " ";
-  display: block;
-  background: #ffffff;
-  border-radius: 11px;
-  width: 14px;
-  height: 14px;
+.menu-button ul li a {
+  text-decoration: none;
 }
 
 .social-logo {
-  width: 400px;
+  width: 200px;
   font-size: 16px;
   font-family: "FontAwesome";
   color: white;
   text-transform: uppercase;
 }
 
-.social-logo .fa-facebook-f {
+.fa-facebook-f {
   margin-left: 20px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   padding: 14px 18px 14px 18px;
   border-radius: 50%;
 }
 
-.social-logo .fa-facebook-f:hover {
+.fa-facebook-f:hover {
   color: #410ecc;
   cursor: pointer;
 }
 
-.social-logo .fa-twitter {
+.fa-twitter {
   margin-left: 15px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   padding: 15px 14px 14.5px 14px;
   border-radius: 50%;
 }
 
-.social-logo .fa-twitter:hover {
+.fa-twitter:hover {
   color: #1567c5;
   cursor: pointer;
 }
 
-.social-logo .fa-instagram {
+.fa-instagram {
   margin-left: 15px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   padding: 14px 15px 14px 15px;
   border-radius: 50%;
 }
 
-.social-logo .fa-instagram:hover {
+.fa-instagram:hover {
   color: #1567c5;
   cursor: pointer;
 }
@@ -710,7 +682,7 @@ header {
   text-transform: uppercase;
 }
 
-.footer-social .fa-facebook-f {
+.fa-facebook-f {
   color: #ffffff;
   margin-left: 20px;
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -719,12 +691,12 @@ header {
   border-color: #ffffff;
 }
 
-.footer-social .fa-facebook-f:hover {
+.fa-facebook-f:hover {
   color: #410ecc;
   cursor: pointer;
 }
 
-.footer-social .fa-twitter {
+.fa-twitter {
   color: #ffffff;
   margin-left: 15px;
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -733,12 +705,12 @@ header {
   border-color: #ffffff;
 }
 
-.footer-social .fa-twitter:hover {
+.fa-twitter:hover {
   color: #1567c5;
   cursor: pointer;
 }
 
-.footer-social .fa-instagram {
+.fa-instagram {
   color: #ffffff;
   margin-left: 15px;
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -747,7 +719,7 @@ header {
   border-color: #ffffff;
 }
 
-.footer-social .fa-instagram:hover {
+.fa-instagram:hover {
   color: #1567c5;
   cursor: pointer;
 }
