@@ -54,30 +54,39 @@ header{
    padding-left: 210px;
    display: flex;
    background-image: none;
+   margin: 0;
    ul{
       width: 690px;
       display: flex;
       justify-content: space-around;
-      list-style-type: none;
+      
       li{
+         text-align: center;
          
-         padding-top: 18px;
-         font-size: 14px;
+         font-size: 18px;
          font-family: "Gotham";
          color: white;
+         cursor: pointer;
+         margin: 0;
+         &::marker{
+            color: #ffffff;
+            font-size: 38px;
+         }
       a {
          text-decoration: none;
-         
          }
       }
    }
+   
 }   
 .social-logo{
+   padding-left: 20px;
    width: 200px;
    font-size: 16px;
    font-family: "FontAwesome";
    color: white;
    text-transform: uppercase;
+   margin: 0;
    }
       .fa-facebook-f {
          margin-left: 20px;
