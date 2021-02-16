@@ -5,4 +5,5 @@ $('.slider').slick({
    dots:true,
    
    
+   
    });

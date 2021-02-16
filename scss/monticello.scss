@@ -34,6 +34,7 @@ header{
       line-height: 1.22;
       text-align: center;
       margin-top: 50px;
+      letter-spacing: 5px;
    }
 }
 .menu-header{
@@ -61,19 +62,19 @@ header{
       justify-content: space-around;
       
       li{
-         text-align: center;
-         
-         font-size: 18px;
-         font-family: "Gotham";
          color: white;
          cursor: pointer;
          margin: 0;
          &::marker{
             color: #ffffff;
             font-size: 38px;
+            
          }
       a {
          text-decoration: none;
+         font-size: 18px;
+         font-family: "Gotham";
+         text-align: center;
          }
       }
    }
@@ -219,7 +220,10 @@ header{
    color: rgb(44, 64, 88);
    text-transform: uppercase;
    line-height: 1.571;
-   text-align: center;   
+   text-align: center;  
+   a{
+      text-decoration: none;
+   } 
    }
    
 /*-----------------Third Section----------------------*/
@@ -330,7 +334,9 @@ header{
    margin: 0;
    width: 370px;
    height:550px;
+   
 }
+
 .name{
    width: 370px;
    display: flex;
