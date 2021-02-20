@@ -4,7 +4,7 @@
 
 @font-face {
    font-family: "Gotham";
-   src: url("/fonts/Gotham\ Medium\ Regular.ttf");
+   src: url("../fonts/Gotham\ Medium\ Regular.ttf");
 }
 body{
    width: 1600px;
@@ -16,7 +16,10 @@ header{
    background-image: url(../img/header-bg.png);
 }
 .header-title{
-   margin-top: 300px;
+   margin-top: 30px;
+   width: 1200px;
+   height: 300px;
+   padding-top: 200px;
    h1{
       font-size: 80px;
       font-family: "Gotham";
@@ -36,6 +39,10 @@ header{
       margin-top: 50px;
       letter-spacing: 5px;
    }
+}
+.header-slider{
+   width: 1200px;
+   height: 500px;
 }
 .menu-header{
    padding-top: 50px;
